@@ -1,0 +1,20 @@
+[21-Jun-2018 06:35:01] WordPress database error Unknown column 'arec_' in 'field list' for query SELECT arec_
+[21-Jun-2018 07:01:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi/functions.php:127) in /home3/cixvydmy/public_html/arecsevenverbs/wp-admin/includes/misc.php on line 1116
+[21-Jun-2018 07:01:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi/functions.php:127) in /home3/cixvydmy/public_html/arecsevenverbs/wp-includes/option.php on line 919
+[21-Jun-2018 07:01:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi/functions.php:127) in /home3/cixvydmy/public_html/arecsevenverbs/wp-includes/option.php on line 920
+[21-Jun-2018 07:02:13] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi-child/functions.php on line 80
+[21-Jun-2018 07:03:09] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi-child/functions.php on line 80
+[21-Jun-2018 07:03:14] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi-child/functions.php on line 80
+[21-Jun-2018 07:04:24] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi-child/functions.php on line 80
+[21-Jun-2018 07:04:39] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi-child/functions.php on line 80
+[21-Jun-2018 07:04:44] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi-child/functions.php on line 80
+[21-Jun-2018 07:04:50] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi-child/functions.php on line 80
+[21-Jun-2018 07:12:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi-child/functions.php on line 40
+[22-Jun-2018 12:38:41 UTC] WordPress database error Table 'cixvydmy_arecdb.wp_cn_social_icon' doesn't exist for query 
+		INSERT INTO `wp_cn_social_icon` (`id`, `title`, `url`, `image_url`, `sortorder`, `date_upload`, `target`) VALUES
+		(1, 'Facebook', 'https://facebook.com/', 'fa fa-facebook', 0, '1487164658', 1),
+		(2, 'Twitter', 'https://twitter.com/', 'fa fa-twitter', 1, '1487164673', 1),
+		(3, 'LinkedIn', 'https://linkedin.com/', 'fa fa-linkedin', 2, '1487164712', 1) made by activate_plugin, do_action('activate_easy-social-icons/easy-social-icons.php'), WP_Hook->do_action, WP_Hook->apply_filters, cnss_db_install, dbDelta
+[23-Jun-2018 05:06:27] PHP Fatal error:  Call to undefined function  json_last_error() in /home3/cixvydmy/public_html/arecsevenverbs/wp-content/plugins/miniorange-2-factor-authentication/miniorange_2_factor_settings.php on line 632
+[25-Jun-2018 07:39:48 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi-child/functions.php on line 67
+[25-Jun-2018 07:40:01 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home3/cixvydmy/public_html/arecsevenverbs/wp-content/themes/Divi-child/functions.php on line 67

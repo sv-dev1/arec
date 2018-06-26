@@ -1,0 +1,542 @@
+/*
+Layouts Pack: Mocha Corporate
+Description: Layouts Pack for the Divi theme
+Author: LayoutsCafe
+Author URI: http://www.layoutscafe.com
+Template: Divi
+Version: 1.0.0
+*/
+
+
+/* ----- MEDIA QUERIES ----- */
+
+    @media screen and (min-width:200px) and (max-width: 1199px) {
+        
+        /* TIMELINE */
+            
+            .timeline-content {width: 100%!important;}
+
+    }
+
+
+    @media only screen and (max-width: 767px) {
+
+        /* BUTTONS */
+
+            /* making button 100% width in mobile version */
+            .et_pb_button {width: 95%;}
+            #hero .et_pb_button {width: 100%;}
+            
+            a.et_pb_more_button.et_pb_button.et_pb_button_two {margin-left: 0;}
+
+            
+            /* making form submit button 100% width */
+            input#et_pb_submit {
+                padding: .6em 1.2em;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            .form-submit {float: none;}
+
+            .et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {width:100%;}
+        
+        
+        /* FORMS */
+
+            /* Add margin under form captcha */
+            input.input.et_pb_contact_captcha {margin-bottom: 1em!important;}
+        
+        
+        /* PERSON */
+        
+            /* Adapt content to Smartphone */
+            .et_pb_team_member_image {
+                max-width:100% !important;
+                margin: none!important;
+            }
+            
+            .et_pb_team_member_image img {
+                width: 100%!important;
+            }
+
+            
+    }
+    
+    
+    @media (min-width:768px) {
+        
+        /* PERSON */
+            
+            .et_pb_team_member_image {max-width: 150px;}
+        
+        /* TYPOGRAPHY */
+            
+            h1 {font-size: 2.5em!important;}
+    }
+
+    
+    @media screen and (min-width:768px) and (max-width: 1023px) {
+        
+        /* TESTIMONIALS */
+
+            .et_pb_testimonial .et_pb_testimonial_portrait {margin-left: 40%;}
+            .et_pb_team_member_image img {float: none !important;}
+    }
+
+
+
+    @media (min-width: 981px) {
+
+        /* FOOTER */
+
+            /* Removing space before the footer */
+            #left-area {
+                padding-bottom:0px !important;
+            }
+    }
+    
+    
+    @media (min-width:1024px) {
+        
+        /* TESTIMONIALS */
+            
+            .et_pb_team_member_image img {max-width: 200px !important;}
+        
+        /* BLOG */
+        
+            /* Add margin under the submit button from the comments form */
+            .form-submit {margin-bottom: 2em;}
+    }
+    
+    
+    @media (min-width:1025px) {
+        
+        /* TESTIMONIALS */
+            
+            .et_pb_team_member_image img {float: left !important;}
+    }
+
+
+
+
+    
+    /* GENERAL */
+
+        /* HEADER */
+
+            /* Remove border under header */
+            #main-header{
+                -webkit-box-shadow:none !important;
+                -moz-box-shadow:none !important;
+                box-shadow:none !important;
+            }
+
+
+            /* Making the fullscreen icon bounce */
+            .et_pb_fullwidth_header .et-pb-icon.scroll-down {
+                animation: fullwidth-header-bounce 2.2s ease-out infinite;
+            }
+            @keyframes fullwidth-header-bounce {
+
+                0% { transform:translateY(0%); }
+                12.5% { transform:translateY(20%); }
+                25% { transform:translateY(0%); }
+                37.5% { transform:translateY(20%); }
+                50% { transform:translateY(0%); }
+                
+            }
+
+
+        /* TYPOGRAPHY */
+            
+            /* Styling the headings */
+            h1, h2, h3, h4, h5, h6 {
+                font-weight: 100 !important;
+            }
+
+            /* Bigger H2's */
+            .diy_home_pme h2 {font-size: 45px; text-align: center; padding-top: 0px;}
+
+            
+            /* Ul lists */
+    
+                /* changing bullets from circle to square */
+                .et_pb_text li, .et_pb_toggle_content li, .et_pb_tab li {list-style: none;}
+                .et_pb_text li:before, .et_pb_toggle_content li:before, .et_pb_tab li:before {
+                    content: "\25AA";
+                    color: #6eb5c0; /* or whatever color you prefer */
+                    display: inline-block; width: 1em;
+                    margin-left: -1em;
+                }
+            
+                /* Removing bullets for the Timeline */
+                .timeline li:before {content: " ";}
+        
+
+        /* BUTTONS */
+
+            /* Adding volume to the buttons*/
+            .et_pb_button {padding: .6em 3em;}
+            .et_pb_button:hover {padding: .6em 3.2em !important;}
+        
+            /* Centering text on the shaking buttons */
+            a.et_pb_button.shake-slow.shake-freeze {text-align:center;}
+
+            
+            /* Custom SideBar Styling */
+            .et_pb_gutters3 .et_pb_column_1_3 .et_pb_grid_item, .et_pb_gutters3 .et_pb_column_1_3 .et_pb_widget, .et_pb_gutters3 .et_pb_column_1_3 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3.et_pb_row .et_pb_column_1_3 .et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_1_3 .et_pb_widget, .et_pb_gutters3.et_pb_row .et_pb_column_1_3 .et_pb_shop_grid .woocommerce ul.products li.product, .et_section_specialty .et_pb_row .et_pb_column_2_3 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_3 .et_pb_grid_item, .et_section_specialty .et_pb_row .et_pb_column_2_3 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_3 .et_pb_widget, .et_section_specialty .et_pb_row .et_pb_column_2_3 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_3 .et_pb_shop_grid .woocommerce ul.products li.product {
+                margin-bottom: 7%;
+            }
+
+
+        /* FORMS */
+
+            /* Styling the search box */
+            input.et_pb_searchsubmit {
+                background: #6eb5c0!important;
+                padding: 0 2em!important;
+                color: #ffffff !important;
+            }
+
+
+
+
+/* NAVIGATION */
+
+
+    /* Adjusting line-height for the sub-menu */
+
+    #top-menu li li {
+        line-height: 1.5;
+    }
+
+    /* Buttons in nav */
+
+        .navcta {text-align: center;}
+    
+        .navcta a {
+            -moz-osx-font-smoothing: grayscale;
+            background: #81d742 none repeat scroll 0 0;
+            /*border: 2px solid;*/
+            border-radius: 3px;
+            color: #ffffff !important;
+            cursor: pointer;
+            line-height: 1.7em;
+            margin: 4px auto;
+            padding: 6px 30px !important;
+            transition: all 0.2s ease 0s;
+        }
+        .navcta a:hover{
+            background-color:#6eb5c0;
+        }
+        
+        .et-fixed-header #top-menu .navcta a, .et-fixed-header #et_search_icon:before, .et-fixed-header #et_top_search .et-search-form input, .et-fixed-header .et_search_form_container input, .et-fixed-header .et_close_search_field:after, .et-fixed-header #et-top-navigation .et-cart-info {color: rgba(255,255,255,0.86) !important;}
+
+
+
+/* BLOG */
+
+
+    /* Making the blog featured image full-width on large screens */
+    .et_pb_image_container img, .et_pb_post a img, .et_pb_post img {width:100%;}
+
+    
+    /* Removing the border around the cards */
+    .et_pb_blog_grid .et_pb_post {
+        border: none;
+    }
+    
+    /* Adding top and bottom padding to the custom blog sidebar */
+    #diy_sidebar-blog-01 {
+        background: #2c82a2;
+        padding: 4em 2em;
+    }
+
+
+
+/* PORTFOLIO */
+    
+    /* remove border*/
+    .et_pb_filterable_portfolio .et_pb_portfolio_filters li a {border: none;}
+
+
+
+/* TESTIMONIALS */
+
+    /* typographic styling - removing italic style */
+    .et_pb_testimonial_description_inner p {font-style: normal!important;}
+
+
+/* MAP */
+
+    /* changing the map default height */
+    .et_pb_map {
+        height: 470px !important;
+    }
+
+
+/* SOCIAL FOLLOWING */
+    
+        /* large icons styling*/
+            
+            /* Adjust font size*/
+            .large-social-icons li a.icon::before {
+                font-size:25px;
+                margin-left: -16px;
+                line-height: 0;
+            }
+            
+            /* Add padding to make the icons bigger */
+            .large-social-icons li a.icon.circle, .large-social-icons li a.icon.rounded_rectangle {padding:1.5em!important;}
+            
+            /* Center the icons in a column */
+            #lc03_social_col  {text-align: center;}
+            #lc03_social_col ul {display: inline-block;}
+
+    
+
+/* CALL TO ACTION */
+    
+    /* Adding space under the call to action description */
+    .et_pb_promo_description {padding-bottom: 2em!important;}
+
+
+
+/* TIMELINE */
+    
+    /* General */
+    
+        .timeline {
+          list-style: none;
+        }
+        .timeline > li {
+          margin-bottom: 60px;
+        }
+
+        ul.timeline {
+            list-style-type:none;
+            padding-left: 0;
+        }
+    
+    /* Specific */
+    
+        .timeline > li {
+            overflow: hidden;
+            margin: 0;
+            position: relative;
+        }
+        .timeline-date {
+            font-size: 14px;
+            font-weight: bold;
+            width: 130px;
+            float: left;
+            margin-top: 10px;
+            background: #006c84 !important;
+            color: #ffffff !important;
+            
+            margin-left:0;
+            padding: 10px!important;
+        }
+        .timeline-content {
+            width: 75%;
+            float: left;
+            border-left: 2px dashed #eee; 
+            padding-left: 30px;
+            padding-top: 17px;
+        }
+
+
+
+/* ACCORDION & TOGGLES */
+    
+    /* General Accordion/Toggle styling */
+    .et_pb_module.et_pb_toggle.et_pb_toggle_close, .et_pb_module.et_pb_toggle {border:1px dashed #6eb5c0!important; border-radius: 3px;}
+    
+    /* Changing the bottom margin */
+    .et_pb_toggle {margin-bottom: 1em!important;}
+
+
+
+/* AUDIO */
+    
+    /* Fixing the timer position */
+    .et_audio_container .mejs-time.mejs-currenttime-container.custom {
+        padding-bottom: 10px;
+        margin-top: -12px;
+    }
+
+
+
+/* TABS */
+
+    /* removing borders */
+    ul.et_pb_tabs_controls, .et_pb_tabs, .et_pb_tabs_controls li {border: none;}
+    .et_pb_tabs_controls li.et_pb_tab_active {bottom: 0;}
+    
+    /* changing the colors */
+    .et_pb_tabs_controls li a {color:#006c84;}
+    .lc03_alt_tabs ul.et_pb_tabs_controls {background: #6eb5c0;}
+    .lc03_alt_tabs .et_pb_tabs_controls li a {color:#ffffff;}
+
+
+/* SEARCH */
+
+.et_pb_search input.et_pb_s, .et_pb_search input.et_pb_searchsubmit {
+    padding: 1.2em;
+    border: 1px solid #6eb5c0;
+    font-size: 1em;
+    
+}
+
+/* PERSON */
+
+    /* General styling */
+    ul.et_pb_member_social_links {padding: 0 0 23px 0!important;}
+    .et_pb_module.et_pb_team_member.et_pb_bg_layout_light.clearfix, .et_pb_module.et_pb_team_member.et_pb_bg_layout_dark.clearfix {padding: 2em 2em .7em 2em !important;}
+    
+    /* Narrow fix */
+    .et_pb_team_member_image img {margin: 0 1.5em 12px 0!important;}
+
+
+
+
+
+/* FOOTER */
+
+#footer-bottom .container {
+    width: 90%;
+    max-width: 90%;
+}
+
+
+/* SHAKING ELEMENTS */
+            
+            
+    /* * * * * * * * * * * * * * * * * * * * *\  
+      CSShake :: shake-slow
+      v1.5.0
+      CSS classes to move your DOM
+      (c) 2015 @elrumordelaluz
+      http://elrumordelaluz.github.io/csshake/
+      Licensed under MIT
+    \* * * * * * * * * * * * * * * * * * * * */
+    .shake-slow {
+      display: block;
+      transform-origin: center center; }
+
+    .shake-freeze,
+    .shake-constant.shake-constant--hover:hover,
+    .shake-trigger:hover .shake-constant.shake-constant--hover {
+      animation-play-state: paused; }
+
+    .shake-freeze:hover,
+    .shake-trigger:hover .shake-freeze, .shake-slow:hover,
+    .shake-trigger:hover .shake-slow {
+      animation-play-state: running; }
+
+    @keyframes shake-slow {
+      2% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      4% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      6% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      8% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      10% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      12% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      14% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      16% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      18% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      20% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      22% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      24% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      26% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      28% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      30% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      32% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      34% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      36% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      38% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      40% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      42% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      44% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      46% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      48% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      50% {
+        transform: translate(5px, -10px) rotate(0.5deg); }
+      52% {
+        transform: translate(10px, -1px) rotate(2.0deg); }
+      54% {
+        transform: translate(15px, -7px) rotate(-1.5deg); }
+      56% {
+        transform: translate(20px, -2px) rotate(2.0deg); }
+      58% {
+        transform: translate(15px, -10px) rotate(-0.5deg); }
+      60% {
+        transform: translate(10px, -2px) rotate(1.5deg); }
+      62% {
+        transform: translate(5px, -10px) rotate(-0.5deg); }
+      64% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      66% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      68% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      70% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      72% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      74% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      76% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      78% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      80% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      82% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      84% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      86% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      88% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      90% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      92% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      94% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      96% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      98% {
+        transform: translate(0px, 0px) rotate(0.0deg); }
+      0%, 100% {
+        transform: translate(0, 0) rotate(0); } }
+
+    .shake-slow:hover,
+    .shake-trigger:hover .shake-slow,
+    .shake-slow.shake-freeze,
+    .shake-slow.shake-constant { animation: shake-slow 5s ease-in-out infinite;}

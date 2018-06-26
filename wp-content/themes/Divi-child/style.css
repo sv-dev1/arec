@@ -1,0 +1,948 @@
+/*
+Theme Name: Divi Child
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Template: Divi
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Tags: responsive-layout,one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,custom-background,custom-colors,featured-images,full-width-template,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready
+Version: 3.0.76.1529568059
+Updated: 2018-06-21 08:00:59
+
+*/
+
+.ticket-selector-submit-btn.ticket-selector-submit-ajax {
+  background: black none repeat scroll 0 0;
+  border: medium none;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 10px 20px !important;
+  text-transform: uppercase;
+   cursor: pointer;
+ 
+}
+
+.ee-ical-sbmt {
+  background: black none repeat scroll 0 0;
+  border: 1px solid #000;
+  border-radius: 2px;
+  color: white;
+  height: 25px;
+  padding: 0 !important;
+  width: 25px;
+}
+.event-datetimes {
+  background: #EDF2F4 none repeat scroll 0 0 !important;
+  padding-top: 30px;
+}
+.ee-event-datetimes-li-daterange {
+  color: black;
+  font-weight: 700;
+}
+.ee-event-datetimes-li-timerange {
+  color: #666;
+  font-weight: 600;
+  float: ;
+}
+.event-content > p {
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  margin: 10px auto;
+  padding: 0 10px;
+}
+#comment-wrap {
+  padding-top: 0px !important;
+}
+#commentform input[type="email"], #commentform input[type="text"], #commentform input[type="url"], #commentform textarea {
+border: 1px solid #eee;
+  width: 100%;
+}
+#reply-title > span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.small-text {
+  font-size: 12px;
+  line-height: 1.4em;
+  margin-bottom: 14px;
+}
+.big-event-title-hdr {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 20px auto 15px;
+}
+.item td {
+  border: 1px solid #eee !important;
+}
+.ee-reg-form-attendee-dv {
+  margin: 3em 0 1em !important;
+ 
+}
+#ee-single-page-checkout-dv input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="file"]) {
+  height: 40px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+}
+.ee-required-label.ee-reg-qstn {
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 5px auto 0;
+}
+.spco-next-step-btn.button.button-primary.button-lg{
+	background: black none repeat scroll 0 0;
+  border: medium none;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+   cursor: pointer;
+  padding: 10px 20px !important;
+  text-transform: uppercase;
+}
+.widgettitle {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+#sidebar li a {
+  color: #666;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+.tckt-slctr-tkt-details-sctn > h4{
+	 font-size: 17px;
+  font-weight: 600;
+}
+.tckt-slctr-tkt-details-sctn > p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin: 5px auto;
+}
+td {
+  border: 1px solid #eee;
+}
+.tckt-slctr-tkt-sale-dates-sctn > h5{
+	 font-size: 17px;
+  font-weight: 600;
+}
+.drk-grey-text.small-text.no-bold{
+	 font-size: 14px;
+  letter-spacing: 0.5px;
+  margin: 5px auto;
+}
+.tckt-slctr-tkt-details-dv h5{
+	 font-size: 17px;
+  font-weight: 600;
+}
+.drk-grey-text.small-text.no-bold {
+  float: left;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin: 5px auto 10px;
+  width: 100%;
+}
+.tckt-slctr-tkt-sale-dates-sctn {
+  font-weight: 700;
+  color: #000;
+  font-size: 14px;
+}
+.drk-grey-text {
+  color: #666;
+
+}
+.ee-reg-form-qstn-grp-title.section-title {
+  font-weight: 600;
+}
+#et-top-navigation {
+  padding-left: 0 !important;
+  float: left;
+}
+.et_header_style_left .logo_container {
+  height: auto;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  z-index: 9;
+  text-align: center;
+}
+  .et-social-icons {
+  text-align: center;
+  float: none;
+}
+#footer-info {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+#ee-single-page-checkout-dv .spco-step-name {
+   font-size: 13px;
+  font-weight: 600;
+  }
+  #spco-available-methods-of-payment-dv > h4{
+  	 font-size: 16px;
+  font-weight: 600;
+  }
+  h1.entry-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+    margin-top: 70px;
+}
+#logo {
+  background: white none repeat scroll 0 0;
+  border: 1px solid #eee;
+  padding: 10px;
+  position: relative;
+  width: 310px;
+}
+.et_pb_image_container img, .et_pb_post a img {
+  margin-top: 60px;
+
+}
+.custom-text {
+  background: #edf2f4 none repeat scroll 0 0;
+  padding: 20px;
+}
+.et_pb_row {
+
+  width: 100%;
+}
+.ee-reg-qstn select {
+    height: 40px;
+    width: 100%;
+    margin: 4px auto 9px;
+}
+label.ee-reg-qstn{
+	color: black;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 5px auto 0;
+}
+#main-header.et-fixed-header {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1) !important;
+    top: 0 !important;
+}
+.et_fixed_nav #main-header, .et_fixed_nav #top-header {
+    position: fixed;
+    top: 0 !important;
+    height: 80px;
+     box-shadow: none !important;
+}
+#top-header {
+  float: right;
+  margin-top: 0;
+  padding: 23px 0 0;
+  position: static !important;
+  width: 290px;
+  background: #D77851 !important;
+}
+#footer-bottom {
+  background-color: #D77851 !important;
+}
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
+  padding-top: 33px !important;
+}
+#top-header .et-social-icon a {
+  font-size: 21px;
+  margin-right: 18px;
+} 
+#top-header  #et-secondary-menu {
+  float: left;
+  width: 100%;
+}
+#et-secondary-menu .et-social-icons {
+  margin-right: 0 !important;
+}
+#top-menu a {
+  color: #333;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 50px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+select {
+  height: 40px;
+  margin: 2px auto 7px;
+  width: 100%;
+  padding-left: 5px;
+}
+input{
+  padding-left: 5px !important;
+}
+
+.ee-icon-only-lnk {
+
+  font-size: 13px;
+  font-weight: 600;
+ }
+.payment_type_title.section-heading {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.section-title {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+#top-menu a:hover {
+  color: #d77851;
+  transition: all 0.2s ease-in-out 0s !important;
+  opacity: 1 !important;
+}
+#top-menu .current-menu-item a {
+  color: #d77851 !important;
+}
+.powered-by-event-espresso-credit {
+   display: none;
+}
+#main-footer {
+  background-color: #d77851 !important;
+  padding: 30px 0;
+}
+#footer-widgets {
+  padding: 0 !important;
+}
+.footer-widget {
+  margin: 0 !important;
+}
+.fwidget.et_pb_widget.widget_cnss_widget {
+  float: none;
+}
+ul.cnss-social-icon li a, ul.cnss-social-icon li a img {
+  margin-left: 7px !important;
+  margin-top: 0px !important;
+}
+#cnss_widget-2 {
+  float: none;
+  margin: 0 auto;
+}
+
+/* new css start here */
+
+.espresso_events h1.entry-title {
+    font-size: 30px;
+    line-height: 39px;
+	margin-top: 20px;
+	color: rgb(34, 34, 34);
+}
+
+.espresso_events .ticket-selector-submit-btn-wrap input[type="submit"]  ,
+input#spco-go-to-step-payment_options-submit ,
+input#spco-go-to-step-finalize_registration-submit{ 
+    background-color: #6786a1;
+    color: #ffffff;
+    border-color: #456480;
+	font-family: 'Open Sans';
+    text-transform: capitalize;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 9px 22px !important;
+}
+
+.espresso_events .ticket-selector-submit-btn-wrap input[type="submit"]:hover , 
+.espresso_events form.download-iCal-frm .ee-ical-sbmt:hover ,
+input#spco-go-to-step-payment_options-submit:hover ,
+input#spco-go-to-step-finalize_registration-submit:hover{
+	background-color: #8ca7be;
+    color: #f8f8f8;
+    border-color: #6a859c;
+}
+
+.espresso_events .event-datetimes {
+    background: transparent !important;
+    padding-top: 30px;
+}
+
+.espresso_events.espresso_event_type-single-event .ee-event-datetimes-ul li {
+    list-style-type: disc;
+	color:#000;
+}
+
+.espresso_events.espresso_event_type-single-event .ee-event-datetimes-ul li strong{
+    color:rgb(103, 134, 161);
+}
+
+.espresso_events .ee-event-datetimes-li-daterange ,
+.espresso_events .ee-event-datetimes-li-timerange{
+    font-weight: 400;
+	color:#000;
+}
+
+.espresso_events form.download-iCal-frm .ee-ical-sbmt {
+    background-color: #6786a1;
+    color: #ffffff;
+    border-color: #456480;
+    border-radius: 0;
+    padding: 0 !important;
+    height: 21px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.espresso_events .custom-text {
+    background: transparent;
+    padding: 0;
+    color: #000;
+	font-size:15px;
+	line-height:25px;
+}
+
+.espresso_events .custom-text ul li{
+    margin-left:17px;
+}
+
+#top_menu_logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: calc((100% - 980px) / 2);
+    width: 980px;
+    text-align: right;
+    padding-right: 40px;
+	z-index: -1;
+}
+
+#top_menu_logo .et_pb_widget{
+	float:right;
+}
+
+#top_menu_logo img{
+	height:100%;
+	width:auto;
+}
+
+.espresso_events-template-default.single.single-espresso_events.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper {
+    width: 100%;
+    max-width: 600px;
+}
+
+.espresso_events-template-default.single.single-espresso_events #sidebar {
+    display: none;
+}
+
+.espresso_events-template-default.single.single-espresso_events #main-content .container:before{
+	display:none;
+}
+
+.espresso_events-template-default.single.single-espresso_events #left-area{
+	width:100%;
+	padding-left:15px;
+	padding-right:15px;
+	max-width:600px;
+	margin-left: auto;
+	margin-right: auto;
+    float: none;
+}
+
+.espresso_events-template-default.single.single-espresso_events #main-content {
+    background-color: #f8f8f8;
+}
+
+.espresso_events-template-default.single.single-espresso_events .et_pb_section {
+    padding: 0;
+	background: transparent;
+}
+
+.espresso_events-template-default.single.single-espresso_events #main-content {
+    background-color: #f8f8f8;
+}
+
+
+.espresso_events-template-default.single.single-espresso_events.et_header_style_left .logo_container ,
+.page-template-default.page-id-6 .logo_container , 
+.hiderightsidebar{
+    background-color: #f8f8f8 !important;
+}
+
+.espresso_events-template-default.single.single-espresso_events .event-datetimes {
+    padding-top:10px;
+}
+
+.espresso_events-template-default.single.single-espresso_events .event-tickets form ~ br {
+    display:none;
+}
+
+.espresso_events-template-default.single.single-espresso_events .et_pb_section .et_pb_row{
+    /* padding-top: 0; */
+}
+
+.espresso_events-template-default.single.single-espresso_events h3.event-venues-h3.ee-event-h3 {
+    color: #222222;
+    font-size: 20px;
+    line-height: 1.1em;
+    margin-bottom: 8px;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+.espresso_events-template-default.single.single-espresso_events h3.event-venues-h3.ee-event-h3 ~ h4 {
+    color: #222222;
+    font-size: 18px;
+    line-height: 1.1em;
+    margin-bottom: 8px;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.espresso_events-template-default.single.single-espresso_events .espresso-venue-dv p  {
+    padding-left:25px;
+	background-image:url('http://arec.sevenverbs.com/wp-content/uploads/2018/06/address_back.png');
+	background-repeat:no-repeat;
+	background-position:left center;
+	color:#6786a1;
+	background-size: 15px auto;
+}
+
+.logo_container ~ #et-main-area {
+    padding-top: 50px;
+}
+
+.post-type-archive-espresso_events div#left-area {
+    width: 100%;
+    padding-right: 0;
+}
+
+.post-type-archive-espresso_events #main-content .container:before ,
+#main-content.hiderightsidebar .container:before {
+    display:none;
+}
+
+.hiderightsidebar #left-area {
+    padding-right: 0;
+    width: 100%;
+}
+
+#left-area .post-meta ,
+#left-area .post-meta a{
+    padding-bottom: 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+	font-size: 20px;
+    line-height: 1.1em;
+    margin-bottom: 8px;
+	color: #222222;
+}
+
+article.espresso_event_type-single-event h2.entry-title {
+    font-size: 29px;
+    line-height: 39px;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+}
+
+#spco-steps-big-hdr{
+	text-transform:uppercase;
+}
+
+h4#spco-step-attendee_information-display-hdr span{
+	color:#000;
+}
+
+form#ee-spco-attendee_information-reg-step-form #spco-attendee_information-pg{
+	color: #000;
+}
+
+form#ee-spco-attendee_information-reg-step-form h4#event_title-76 {
+    color: #222222;
+    padding-bottom: 0;
+    font-size: 18px;
+    line-height: 1.1em;
+    margin-bottom: 4px;
+}
+
+form#ee-spco-attendee_information-reg-step-form .spco-ticket-info-dv.small-text > h5{
+    font-size: 16px;
+    line-height: 1.1em;
+    color: #222222;
+    font-weight: 600;
+	    padding-bottom: 0;
+}
+
+form#ee-spco-attendee_information-reg-step-form .spco-ticket-info-dv.small-text > table tr th{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 9px 12px;
+	border-left-style: solid;
+    border-left-width: 1px;
+    border-color: #e1e1e1;
+	color: #000;
+}
+
+form#ee-spco-attendee_information-reg-step-form .spco-ticket-info-dv.small-text > table tr th:nth-child(1){
+	text-align:left;
+}
+
+form#ee-spco-attendee_information-reg-step-form .spco-ticket-info-dv.small-text > table {
+	background: #fff;
+}
+
+form#ee-spco-attendee_information-reg-step-form .spco-ticket-info-dv.small-text > table tr td{
+	color: #000;
+}
+
+h4.ee-reg-form-qstn-grp-title.section-title {
+    font-size: 18px;
+    line-height: 1.1em;
+    margin-bottom: 4px;
+    margin: .25em 0 1em;
+    padding: 0;
+}
+
+article.espresso_events.type-espresso_events .event-content p {
+    text-align: justify;
+	color: #000;
+}
+
+article.espresso_events.type-espresso_events .event-content > ul {
+	margin-left: 20px;
+    padding-left: 0 !important;
+}
+
+article.espresso_events.type-espresso_events .event-content > ul li{
+	margin-left:20px;
+}
+
+article .et_pb_row.et_pb_row_1 {
+    width: 100% !important;
+}
+
+article .et_pb_text_inner > ul {
+    color:#000;
+	margin-left: 20px;
+}
+
+article .et_pb_text_inner > ul li ,
+article .et_pb_text_inner > ul li{
+    padding-top:3px;
+    padding-bottom:3px;
+	color:#000;
+}
+
+#ee-single-page-checkout-dv input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="file"]) {
+    height: 33px;
+}
+
+body #ee-single-page-checkout-dv .ee-has-value, body #ee-single-page-checkout-dv .ee-has-value:focus {
+    border-color: #bbb !important;
+    -webkit-box-shadow: 0 0 3px 0 #bbb !important;
+    -moz-box-shadow: 0 0 3px 0 #bbb !important;
+    box-shadow: 0 0 3px 0 #bbb !important;
+}
+
+form#ee-spco-attendee_information-reg-step-form .spco-ticket-info-dv.small-text > table tr td {
+    font-size: 13px;
+}
+
+p#spco-attendee_information-pg {
+    font-size: 11px;
+}
+
+legend.spco-attendee-lgnd.smaller-text.lt-grey-text {
+    display: block;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#ee-single-page-checkout-dv label {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: -2px;
+}
+
+article .espresso-venue-dv > div {
+    color: #000;
+    font-size: 15px;
+}
+
+h1.upcommimg {
+	text-align:center;
+	padding: 0;
+}
+
+h1.upcommimg a {
+    display: inline-block;
+    background: #00b1ca;
+    margin: auto;
+    color: #fff;
+    font-size: 15px;
+    padding: 1px 22px;
+    font-weight: bold;
+}
+
+article .et_post_meta_wrapper {
+    padding-top: 0 !important;
+}
+
+#main-content .container {
+    padding-top: 35px !important;
+}
+
+.text_style{
+	color:#000;
+}
+
+article.et_pb_post.espresso_events.type-espresso_events.espresso_event_type-single-event:nth-last-child(2) {
+    margin-bottom: 0;
+    padding-bottom: 0 !important;
+    border-bottom: none !important;
+}
+
+h2#spco-steps-big-hdr {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 3px 0;
+    font-weight: 600;
+}
+
+div#checkoutpage_Text {
+    font-size: 13px;
+    color: #000;
+}
+
+h4#reg-page-totals-hdr {
+    font-size: 18px;
+    line-height: 1.1em;
+    margin-bottom: 0;
+    color: #222;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+table#spco-payment-info-table tr th{
+	font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 9px 12px !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e1e1e1;
+    font-size: 13px;
+	color: #000;
+}
+
+table#spco-payment-info-table tr#event-cart-total-row {
+    background: #fff;
+	color: #6786a1;
+	font-size:13px;
+}
+
+table#spco-payment-info-table tr td {
+	padding: 9px 12px;
+	font-size: 13px;
+    border-style: solid;
+    border-width: 1px;
+	border-color: #e1e1e1 !important;
+}
+
+table#spco-payment-info-table tr:nth-child(even)  {
+    background: #f8f8f8;
+}
+
+table#spco-payment-info-table tr:nth-child(odd)  {
+    background: #fff;
+}
+
+h4#method-of-payment-hdr {
+    padding-bottom: 0;
+}
+
+#spco-payment-method-info-paypal_pro {
+    clear: both;
+    position: relative;
+    padding: 1.5em 2em 2em;
+    margin: 1em 0 2em;
+    border-color: #e1e1e1 !important;
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
+h3.spco-payment-method-hdr {
+    font-size: 20px;
+    line-height: 1.1em;
+    padding: 0;
+    color: #222;
+    font-weight: 600;
+}
+
+.spco-payment-method-desc.ee-attention {
+    padding: 10px 27px !important;
+    font-size: 13px;
+    border-color: #e1e1e1;
+    color: #000;
+}
+
+#paypal-pro-billing-form .ee-billing-qstn label ,
+#paypal-pro-billing-form .ee-billing-qstn-input-dv label {
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+}
+
+label#paypal-pro-billing-form-cvv-lbl > a {
+    color: #6786a1;
+}
+
+input#spco-go-to-step-finalize_registration-submit {
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+#spco-steps-display-dv {
+    border-bottom: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+
+#spco-steps-display-dv #checkoutpage_Text{
+    font-size: 13px;
+    color: #000;
+    margin: 5px 0 5px;
+    padding-top: 5px;
+    border-top: 1px solid #eee;
+}
+
+span.spco-step-name {
+    font-size: 9px !important;
+	color: #ddd;
+}
+
+.active-step.steps-2 span.spco-step-big-nmbr {
+    color: #000;
+}
+.active-step.steps-2 span.spco-step-name {
+    color: #000;
+}
+
+span.register_on_listing a{
+    background-color: #6786a1;
+    border-color: #456480;
+    padding: 4px 13px !important;
+    display: inline-block;
+    color: #fff !important;
+    font-family: 'Open Sans';
+    text-transform: capitalize !important;
+    line-height: 25px !important;
+    font-size: 13px !important;
+}
+
+span.register_on_listing a:hover{
+	background-color: #8ca7be;
+    color: #f8f8f8;
+    border-color: #6a859c;
+}
+
+
+
+
+
+
+
+
+
+/* new css end here */
+
+
+@media (max-width:1366px){
+	
+	#top_menu_logo {
+		left: auto;
+		right: 280px;
+		padding-right: 0px;
+	}
+	
+}
+
+
+
+@media (max-width:980px){
+	
+	.et_header_style_left #et-top-navigation{
+		padding-top: 28px !important;
+	}
+	
+}
+
+
+@media (max-width:540px){
+	
+	#top-header{
+		width: 180px !important;
+	}
+	
+	#top_menu_logo {
+		right: 160px;
+	}
+	
+	ul.cnss-social-icon li a img {
+    width: 20px;
+}
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+@media (max-width:480px){
+
+	#top-header {
+	  width: 260px;
+	}
+	#et-secondary-menu, #et-secondary-nav {
+	  display: block !important;
+	}
+	#top-header .et-social-icon a {
+	   margin-right: 12px;
+	   margin-top: 12px;
+	}
+	h1.entry-title {
+	  margin-top: 20px;
+	}
+	.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
+	  padding-top: 25px !important;
+	  padding-left: 10px !important;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
